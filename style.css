@@ -13,3 +13,44 @@ body {
     margin: 0;
 
 }
+
+.character-card {
+    background-color: #2a2a2a;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    max-width: 350px;
+    text-align: center; 
+    
+}
+
+.character-card img {
+    width: 100%;
+    height: auto;
+    }
+
+.character-card h1 {
+    margin: 15px 0;
+}
+
+.character-card .description{
+    font-size: 0.9em;
+    padding: 0 20px;
+    line-height: 1.5;
+}
+.character-card h2 {
+    font-size: 1.1em;
+    margin-top: 20px;
+    background-color: #1c1c1c;
+    padding: 10px;
+}
+
+.character-card ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.character-card li {
+    padding: 8px 20px;
+}
