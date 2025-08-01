@@ -21,7 +21,11 @@ body {
     overflow: hidden;
     max-width: 350px;
     text-align: center; 
-    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.character-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(97, 85, 204, 0.5);
 }
 
 .character-card img {
@@ -54,3 +58,4 @@ body {
 .character-card li {
     padding: 8px 20px;
 }
+
